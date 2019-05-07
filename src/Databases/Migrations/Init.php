@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace AbterPhp\Website\Databases\Migrations;
+namespace AbterPhp\WebsiteCreative\Databases\Migrations;
 
 use AbterPhp\Framework\Databases\Migrations\RawMigration;
 use DateTime;
