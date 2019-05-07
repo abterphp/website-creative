@@ -161,7 +161,7 @@ INSERT IGNORE INTO blocks (id, identifier, title, body, layout_id, layout) VALUE
             <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>', 'b1a2b08f-b82e-4ef3-84aa-29f6fbb76007', '');
 INSERT IGNORE INTO blocks (id, identifier, title, body, layout_id, layout) VALUES (UUID(), 'creative-service4', 'Made with Love', '            <p><i class="fas fa-4x fa-heart text-primary mb-4"></i></p>
             <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0">Is it really open source if it''s not made with love?</p>', 'b1a2b08f-b82e-4ef3-84aa-29f6fbb76007', '', '2019-05-07 15:39:25', '2019-05-07 16:41:08', 0);
+            <p class="text-muted mb-0">Is it really open source if it''s not made with love?</p>', 'b1a2b08f-b82e-4ef3-84aa-29f6fbb76007', '');
 UPDATE blocks SET deleted = 0 WHERE identifier LIKE 'creative-%';
 
 INSERT IGNORE INTO page_layouts (id, identifier, body, header, footer, css_files, js_files) VALUES ('3fc1212f-2189-4655-a11b-1a98dd897053', 'creative', '  <!-- Navigation -->
