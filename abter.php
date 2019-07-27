@@ -8,7 +8,7 @@ use AbterPhp\Framework\Constant\Priorities;
 
 return [
     Module::IDENTIFIER      => 'AbterPhp\WebsiteCreative',
-    Module::DEPENDENCIES    => ['AbterPhp\Bootstrap4Website'],
+    Module::DEPENDENCIES    => ['AbterPhp\Bootstrap4Website', 'AbterPhp\Contact'],
     Module::ENABLED         => true,
     Module::CLI_BOOTSTRAPPERS => [
         Bootstrappers\Database\MigrationsBootstrapper::class,
