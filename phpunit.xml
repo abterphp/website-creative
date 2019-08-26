@@ -3,7 +3,7 @@
         failOnWarning="true"
         colors="true">
     <testsuites>
-        <testsuite name="AbterPHP/Admin/Unit">
+        <testsuite name="AbterPHP/WebsiteCreative/Unit">
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
