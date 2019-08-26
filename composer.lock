@@ -62,12 +62,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/abterphp/bootstrap4-website.git",
-                "reference": "b1fa389573ef595f701c7a1db97cd249354c52ae"
+                "reference": "62d728239a40fc61736e705fefb35846cedc119c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/abterphp/bootstrap4-website/zipball/b1fa389573ef595f701c7a1db97cd249354c52ae",
-                "reference": "b1fa389573ef595f701c7a1db97cd249354c52ae",
+                "url": "https://api.github.com/repos/abterphp/bootstrap4-website/zipball/62d728239a40fc61736e705fefb35846cedc119c",
+                "reference": "62d728239a40fc61736e705fefb35846cedc119c",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
                 }
             ],
             "description": "Website module for AbterPHP",
-            "time": "2019-08-12T12:19:20+00:00"
+            "time": "2019-08-26T02:27:50+00:00"
         },
         {
             "name": "abterphp/contact",
