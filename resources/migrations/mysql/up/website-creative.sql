@@ -292,7 +292,6 @@ UPDATE page_layouts
 SET deleted_at = NULL
 WHERE identifier LIKE 'creative-%';
 
-
 UPDATE pages
 SET title     = 'New AbterCMS installation',
     layout_id = '3fc1212f-2189-4655-a11b-1a98dd897053',
