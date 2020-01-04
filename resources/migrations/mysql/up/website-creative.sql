@@ -193,8 +193,8 @@ UPDATE blocks
 SET deleted_at = NULL
 WHERE identifier LIKE 'creative-%';
 
-INSERT IGNORE INTO page_layouts (id, identifier, body, header, footer, css_files, js_files)
-VALUES ('3fc1212f-2189-4655-a11b-1a98dd897053', 'creative', '  <!-- Navigation -->
+INSERT IGNORE INTO page_layouts (id, name, identifier, body, header, footer, css_files, js_files)
+VALUES ('3fc1212f-2189-4655-a11b-1a98dd897053', 'Creative', 'creative', '  <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">{{ block/creative-brand }}</a>
